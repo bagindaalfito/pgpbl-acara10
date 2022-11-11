@@ -41,11 +41,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-
-                    
-                    <li class="nav-item">
-                        <a class="nav-link <?= auth()->loggedIn() ? 'text-danger' : '' ?>" href="<?= auth()->loggedIn() ? base_url('logout') : base_url('login') ?>"><i class="fas fa-sign-in-alt"></i><?= auth()->loggedIn() ? 'Logout' : 'Login' ?></a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#infoModal"><i class="fas fa-info-circle"></i>Info</a>
                     </li>
